@@ -44,6 +44,7 @@ namespace TestCertamen1
             this.cbxSubTipo = new System.Windows.Forms.ComboBox();
             this.numGramaje = new System.Windows.Forms.NumericUpDown();
             this.numHumedad = new System.Windows.Forms.NumericUpDown();
+            this.labDetalle = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numGramaje)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numHumedad)).BeginInit();
             this.SuspendLayout();
@@ -234,11 +235,23 @@ namespace TestCertamen1
             0,
             0});
             // 
+            // labDetalle
+            // 
+            this.labDetalle.AutoSize = true;
+            this.labDetalle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labDetalle.Location = new System.Drawing.Point(140, 644);
+            this.labDetalle.Name = "labDetalle";
+            this.labDetalle.Size = new System.Drawing.Size(340, 25);
+            this.labDetalle.TabIndex = 18;
+            this.labDetalle.Text = "Para ver el detalle, ingrese un \'Origen\'";
+            this.labDetalle.Visible = false;
+            // 
             // FMaestro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1021, 759);
+            this.Controls.Add(this.labDetalle);
             this.Controls.Add(this.numHumedad);
             this.Controls.Add(this.numGramaje);
             this.Controls.Add(this.cbxSubTipo);
@@ -280,5 +293,6 @@ namespace TestCertamen1
         private System.Windows.Forms.ComboBox cbxSubTipo;
         private System.Windows.Forms.NumericUpDown numGramaje;
         private System.Windows.Forms.NumericUpDown numHumedad;
+        private System.Windows.Forms.Label labDetalle;
     }
 }

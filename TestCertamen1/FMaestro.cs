@@ -98,6 +98,7 @@ namespace TestCertamen1
 
         private void SetBtnDetalleEnabled(bool enabled)
         {
+            labDetalle.Visible = false;
             if (!enabled)
             {
                 btnDetalle.Enabled = enabled;
@@ -110,6 +111,7 @@ namespace TestCertamen1
             }
             else
             {
+                labDetalle.Visible = true;
                 btnDetalle.Enabled = false;
             }
         }
