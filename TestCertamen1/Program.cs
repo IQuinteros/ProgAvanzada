@@ -16,7 +16,7 @@ namespace TestCertamen1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FMaestro());
+            Application.Run(new FValidate());
         }
     }
 }
